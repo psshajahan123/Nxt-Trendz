@@ -11,7 +11,6 @@ const Cart = () => (
   <CartContext.Consumer>
     {value => {
       const {cartList, removeAllCartItems} = value
-      const showEmptyView = cartList.length === 0
       const onClickRemoveAllBtn = () => {
         removeAllCartItems()
       }
@@ -20,7 +19,7 @@ const Cart = () => (
         <>
           <Header />
           <div className="cart-container">
-            {showEmptyView ? (
+            {cartList.length === 0 ? (
               <EmptyCartView />
             ) : (
               <div className="cart-content-container">

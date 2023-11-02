@@ -55,14 +55,10 @@ const CartSummary = () => (
                     <p>Total Items: {cartList.length}</p>
                     <p>Total Price: {total} Rs</p>
                     <form onChange={onChangeSelect}>
-                      <label htmlFor="fname">Net Banking</label>
-                      <input type="radio" name="same" value="Net Banking" />
-                      <label htmlFor="lname">Cash on Delivery</label>
-                      <input
-                        type="radio"
-                        name="same"
-                        value="Cash on Delivery"
-                      />
+                      <input type="radio" disabled="true" />
+                      Net Banking
+                      <input type="radio" />
+                      Cash on Delivery
                     </form>
                   </div>
                   <div className="actions">

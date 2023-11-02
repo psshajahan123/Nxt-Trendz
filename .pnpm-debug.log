@@ -2,21 +2,22 @@
   "0 debug pnpm:scope": {
     "selected": 1
   },
-  "1 error pnpm": {
-    "code": "ELIFECYCLE",
-    "errno": "ENOENT",
-    "syscall": "spawn",
-    "file": "sh",
-    "pkgid": "nxt-trendz-cart-features@1.0.0",
-    "stage": "start",
-    "script": "react-scripts start",
-    "pkgname": "nxt-trendz-cart-features",
+  "1 info pnpm": {
     "err": {
-      "name": "pnpm",
-      "message": "nxt-trendz-cart-features@1.0.0 start: `react-scripts start`\nspawn ENOENT",
-      "code": "ELIFECYCLE",
-      "stack": "pnpm: nxt-trendz-cart-features@1.0.0 start: `react-scripts start`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:92384:22)\n    at ChildProcess.emit (events.js:400:28)\n    at maybeClose (internal/child_process.js:1058:16)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:293:5)"
+      "name": "Error",
+      "message": "not found: instll",
+      "code": "ENOENT",
+      "stack": "Error: not found: instll\n    at getNotFoundError (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41689:51)\n    at Function.whichSync [as sync] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41766:13)\n    at getCommandAbsolutePathSync (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43331:44)\n    at default_1 (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43340:32)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:178603:39"
     }
   },
-  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/home/workspace/reactjs/coding-practices/enhancementOfNxtTrendzPayment",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: instll",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: instll\n    at getNotFoundError (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41689:51)\n    at Function.whichSync [as sync] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41766:13)\n    at getCommandAbsolutePathSync (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43331:44)\n    at default_1 (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43340:32)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:178603:39"
+    }
+  }
 }
